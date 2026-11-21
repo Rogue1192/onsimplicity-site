@@ -1,0 +1,10 @@
+---
+import Base from '../layouts/Base.astro';
+import Cards from './Cards.astro';
+import Pagination from './Pagination.astro';
+import {absolute} from '../lib/content';
+const {partner:p,page}=Astro.props;
+const path=`/resource-partners/partners/${p.slug}/`;
+const schema={'@context':'https://schema.org','@type':'LocalBusiness','@id':absolute(path)+'#business',name:p.name,address:{'@type':'PostalAddress',...(p.street?{streetAddress:p.street}:{}),addressLocality:p.city,addressRegion:p.state,...(p.zip?{postalCode:p.zip}:{})},...(p.phone?{telephone:p.phone}:{}),url:p.website||absolute(path),...(p.gbp_url?{sameAs:[p.gbp_url]}:{})};
+---
+<Base title={`${p.name}${page.number>1?` — Page ${page.number}`:''}`} description={p.blurb} schema={schema} breadcrumbs={[{name:'Home',path:'/'},{name:'Resource Partners',path:'/resource-partners/'},{name:p.name,...(page.number>1?{path}:{})},...(page.number>1?[{name:`Projects — Page ${page.number}`}]:[])]}><header class="page-header"><p class="eyebrow">{p.category} · {p.city}, {p.state}</p><h1>{p.name}</h1><p>{p.blurb}</p></header><div class="business-grid"><section class="business-details"><h2>Business details</h2><address><strong>{p.name}</strong>{p.street&&<span>{p.street}</span>}<span>{p.city}, {p.state}{p.zip?' '+p.zip:''}</span>{p.phone&&<a href={`tel:${p.phone.replace(/[^+\d]/g,'')}`}>{p.phone}</a>}</address><div class="button-row">{p.website&&<a class="button" href={p.website}>Visit website ↗</a>}{p.gbp_url&&<a class="button outline" href={p.gbp_url}>View on Google ↗</a>}</div></section>{p.map_embed_src&&<iframe src={p.map_embed_src} title={`${p.name} on Google Maps`} width="640" height="360" loading="lazy" referrerpolicy="no-referrer-when-downgrade"/>}</div><section class="section" id="projects"><div class="section-heading"><h2>Recent projects</h2></div>{page.items.length?<Cards entries={page.items}/>:<p>There are no project articles published for this business yet.</p>}<Pagination current={page.number} total={page.total} base={path} anchor="#projects"/></section></Base>

@@ -1,0 +1,10 @@
+---
+import Base from '../../../../layouts/Base.astro';
+import Cards from '../../../../components/Cards.astro';
+import {archive,related,categoryFor,absolute,formatDate,SITE} from '../../../../lib/content';
+export function getStaticPaths(){return archive.map(entry=>{const [year,month,slug]=entry.path.split('/').filter(Boolean);return {params:{year,month,slug},props:{entry}}})}
+const {entry}=Astro.props;
+const main=categoryFor(entry.category);
+const schema={'@context':'https://schema.org','@type':'Article',headline:entry.title,description:entry.description,datePublished:entry.date,dateModified:entry.date,mainEntityOfPage:absolute(entry.path),publisher:{'@type':'Organization',name:'On Simplicity',url:SITE+'/'}};
+---
+<Base title={entry.title} description={entry.description} type="article" schema={schema} breadcrumbs={[{name:'Home',path:'/'},{name:main.name,path:main.path},{name:entry.title}]}><header class="article-header"><p class="eyebrow">{entry.categories.map((name:string)=><a href={categoryFor(name).path}>{name}</a>)}</p><h1>{entry.title}</h1><p class="standfirst">{entry.description}</p><p class="byline">On Simplicity editorial · Published <time datetime={entry.date}>{formatDate(entry.date)}</time></p></header><div class="article-layout"><article class="prose prose-stone max-w-none" set:html={entry.body_html}/><aside class="article-aside"><span class="eyebrow">A little breathing room</span><h2>Start where you are.</h2><p>Practical ideas for real homes, full calendars and imperfect days.</p><a href={main.path}>More in {main.name} →</a><a href="/resource-partners/">Meet Resource Partners →</a></aside></div><section class="section related"><div class="section-heading"><h2>Related reading</h2></div><Cards entries={related(entry)}/></section></Base>

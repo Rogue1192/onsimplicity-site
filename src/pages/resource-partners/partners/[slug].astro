@@ -1,0 +1,7 @@
+---
+import PartnerProfile from '../../../components/PartnerProfile.astro';
+import {partners,posts,pagesOf} from '../../../lib/content';
+export function getStaticPaths(){return partners.map(partner=>({params:{slug:partner.slug},props:{partner,page:pagesOf(posts.filter(p=>p.partner===partner.slug),12)[0]}}))}
+const {partner,page}=Astro.props;
+---
+<PartnerProfile partner={partner} page={page}/>

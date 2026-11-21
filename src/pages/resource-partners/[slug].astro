@@ -1,0 +1,9 @@
+---
+import Base from '../../layouts/Base.astro';
+import Cards from '../../components/Cards.astro';
+import {posts,partners,slugify,formatDate} from '../../lib/content';
+export function getStaticPaths(){return posts.map(entry=>({params:{slug:entry.slug},props:{entry}}))}
+const {entry}=Astro.props;
+const partner=partners.find(p=>p.slug===entry.partner);
+---
+<Base title={entry.title} description={entry.description} schema={entry.schema} image={entry.featured_image?.url} type="article" breadcrumbs={[{name:'Home',path:'/'},{name:'Resource Partners',path:'/resource-partners/'},...(partner?[{name:partner.name,path:`/resource-partners/partners/${partner.slug}/`}]:[]),{name:entry.h1}]}><header class="article-header"><p class="eyebrow"><a href={`/resource-partners/category/${slugify(entry.category)}/`}>{entry.category}</a> / Resource Partners</p><h1>{entry.h1}</h1><p class="standfirst">{entry.description}</p><p class="byline">Published <time datetime={entry.date}>{formatDate(entry.date)}</time></p></header><div class="partner-article">{entry.featured_image&&<img class="featured-image" src={entry.featured_image.url} alt={entry.featured_image.alt} width="1200" height="750" fetchpriority="high"/>}<article class="prose prose-stone max-w-none" set:html={entry.body_html}/>{entry.tags.length>0&&<p class="tags">Topics: {entry.tags.join(' · ')}</p>}{partner&&<aside class="partner-box"><span class="eyebrow">Resource Partner</span><h2><a href={`/resource-partners/partners/${partner.slug}/`}>{partner.name}</a></h2><p>{partner.city}, {partner.state}</p><a href={`/resource-partners/partners/${partner.slug}/`}>View business profile and recent projects →</a></aside>}</div><section class="section"><div class="section-heading"><h2>More from Resource Partners</h2></div>{posts.length>1?<Cards entries={posts.filter(p=>p.slug!==entry.slug).slice(0,5)}/>:<p>Explore the <a href="/resource-partners/">Resource Partners directory</a> for business profiles.</p>}</section></Base>

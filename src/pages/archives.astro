@@ -1,0 +1,5 @@
+---
+import Base from '../layouts/Base.astro';
+import {archive,categories} from '../lib/content';
+---
+<Base title="Archives" description="Browse every On Simplicity guide by subject, from decluttering and home routines to money, relationships and a calmer everyday life." breadcrumbs={[{name:'Home',path:'/'},{name:'Archives'}]}><header class="page-header"><p class="eyebrow">The reading room</p><h1>Ideas to come back to.</h1><p>Browse the journal by subject. Familiar addresses, newly written guides for life today.</p></header><nav class="jump-links" aria-label="Archive categories">{categories.map(c=><a href={`#${c.slug}`}>{c.name}</a>)}</nav><div class="archive-columns">{categories.map(c=><section id={c.slug} class="archive-group"><h2><a href={c.path}>{c.name}</a></h2><ul>{archive.filter(a=>a.categories.includes(c.name)).map(a=><li><a href={a.path}>{a.title}</a></li>)}</ul></section>)}</div></Base>

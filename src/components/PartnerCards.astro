@@ -1,0 +1,6 @@
+---
+import type {Partner} from '../lib/content';
+interface Props {partners:Partner[]}
+const {partners}=Astro.props;
+---
+<div class="story-grid">{partners.map(p=><article class="story-card"><span class="eyebrow">{p.category}</span><h2><a href={`/resource-partners/partners/${p.slug}/`}>{p.name}</a></h2><p class="location">{p.city}, {p.state}</p><p>{p.blurb}</p><a class="text-link" href={`/resource-partners/partners/${p.slug}/`}>{p.name}'s recent projects <span aria-hidden="true">↗</span></a></article>)}</div>

@@ -1,0 +1,7 @@
+---
+import type {Entry} from '../lib/content';
+import {formatDate} from '../lib/content';
+interface Props {entries:Entry[]; compact?:boolean}
+const {entries,compact=false}=Astro.props;
+---
+<div class:list={['story-grid',{'compact':compact}]}>{entries.map((entry,i)=><article class="story-card"><div class="card-top"><span class="eyebrow">{entry.category}</span><span class="card-number" aria-hidden="true">{String(i+1).padStart(2,'0')}</span></div>{entry.featured_image&&<img class="card-image" src={entry.featured_image.url} alt={entry.featured_image.alt} loading="lazy" width="640" height="400"/>}<h3><a href={entry.path}>{entry.h1}</a></h3><p>{entry.description}</p><div class="card-bottom"><time datetime={entry.date}>{formatDate(entry.date)}</time><a href={entry.path} aria-label={`Read ${entry.h1}`}>Read story <span aria-hidden="true">↗</span></a></div></article>)}</div>

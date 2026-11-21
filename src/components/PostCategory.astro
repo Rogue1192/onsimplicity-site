@@ -1,0 +1,8 @@
+---
+import Base from '../layouts/Base.astro';
+import Cards from './Cards.astro';
+import Pagination from './Pagination.astro';
+const {category,page}=Astro.props;
+const base=`/resource-partners/category/${category.slug}/`;
+---
+<Base title={`${category.name} — Resource Partners${page.number>1?` — Page ${page.number}`:''}`} description={`Explore ${category.name.toLowerCase()} service and project articles from businesses in the On Simplicity Resource Partners directory.`} breadcrumbs={[{name:'Home',path:'/'},{name:'Resource Partners',path:'/resource-partners/'},{name:category.name,...(page.number>1?{path:base}:{})},...(page.number>1?[{name:`Page ${page.number}`}]:[])]}><header class="page-header"><p class="eyebrow">Resource Partners / By industry</p><h1>{category.name}</h1><p>Service insights and recent work from independent businesses.</p></header><Cards entries={page.items}/><Pagination current={page.number} total={page.total} base={base}/></Base>

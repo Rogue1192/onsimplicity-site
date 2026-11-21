@@ -1,0 +1,6 @@
+---
+interface Props {current:number;total:number;base:string;anchor?:string}
+const {current,total,base,anchor=''}=Astro.props;
+const href=(n:number)=>(n===1?base:`${base}page/${n}/`)+anchor;
+---
+{total>1&&<nav class="pagination" aria-label="Pagination">{current>1&&<a href={href(current-1)} rel="prev">← Previous</a>}<span>Page {current} of {total}</span>{current<total&&<a href={href(current+1)} rel="next">Next →</a>}</nav>}

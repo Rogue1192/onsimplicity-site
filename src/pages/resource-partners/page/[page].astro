@@ -1,0 +1,7 @@
+---
+import Hub from '../../../components/Hub.astro';
+import {partners,pagesOf} from '../../../lib/content';
+export function getStaticPaths(){return pagesOf(partners,24).slice(1).map(page=>({params:{page:String(page.number)},props:{page}}))}
+const {page}=Astro.props;
+---
+<Hub page={page}/>

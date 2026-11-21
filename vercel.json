@@ -1,0 +1,55 @@
+{
+  "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/about-sara/",
+      "destination": "/about/",
+      "statusCode": 301
+    },
+    {
+      "source": "/about-2/",
+      "destination": "/about/",
+      "statusCode": 301
+    },
+    {
+      "source": "/faqs/",
+      "destination": "/about/",
+      "statusCode": 301
+    },
+    {
+      "source": "/feed/",
+      "destination": "/rss.xml",
+      "statusCode": 301
+    },
+    {
+      "source": "/category/:cat(blogging|quick-dirty|simple-sunday|simplicity-in-theory|starting-out|three-things|uncategorized|weekly-links|time-management|style)/",
+      "destination": "/archives/",
+      "statusCode": 301
+    },
+    {
+      "source": "/category/:cat(blogging|quick-dirty|simple-sunday|simplicity-in-theory|starting-out|three-things|uncategorized|weekly-links|time-management|style)/page/:n(\\d+)/",
+      "destination": "/archives/",
+      "statusCode": 301
+    },
+    {
+      "source": "/category/:cat/page/:n(\\d+)/",
+      "destination": "/category/:cat/",
+      "statusCode": 301
+    },
+    {
+      "source": "/page/:n(\\d+)/",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/:year(\\d{4})/:month(\\d{2})/",
+      "destination": "/archives/",
+      "statusCode": 301
+    },
+    {
+      "source": "/:year(\\d{4})/:month(\\d{2})/page/:n(\\d+)/",
+      "destination": "/archives/",
+      "statusCode": 301
+    }
+  ]
+}

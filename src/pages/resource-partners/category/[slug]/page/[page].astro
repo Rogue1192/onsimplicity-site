@@ -1,0 +1,7 @@
+---
+import PostCategory from '../../../../../components/PostCategory.astro';
+import {posts,postCategories,pagesOf,slugify} from '../../../../../lib/content';
+export function getStaticPaths(){return postCategories.flatMap(category=>pagesOf(posts.filter(p=>slugify(p.category)===category.slug),12).slice(1).map(page=>({params:{slug:category.slug,page:String(page.number)},props:{category,page}})))}
+const {category,page}=Astro.props;
+---
+<PostCategory category={category} page={page}/>
