@@ -32,3 +32,5 @@ updated: "2026-11-21"
 <h2>Choose a habit you can repeat</h2>
 <p>Try one modest routine for a month: check subscriptions before renewal, plan two meals from existing ingredients, or leave nonessential purchases on a list overnight. Record what actually helped. If a method causes disproportionate stress or repeated wasted trips, change it rather than calling the difficulty a lack of discipline.</p>
 <p>Being thrifty is not a competition to accept the least comfort. It is using available money deliberately so more of it supports your real needs. Keep room for a modest pleasure when circumstances allow. A budget that acknowledges ordinary life is usually easier to maintain than a rulebook built entirely around denial.</p>
+
+<p>Give the money you keep a purpose rather than letting it disappear into the next purchase. <a href="/2008/06/using-big-crazy-unrealistic-dreams-to-fuel-savings/">Using a meaningful dream to fuel savings</a> can make a modest saving feel connected to something you actually want.</p>

@@ -31,3 +31,7 @@ updated: "2026-11-21"
 <p>Notice who published the advice and whether it serves a commercial interest. A retailer can provide useful instructions, but a recommendation to buy a new product deserves a little scrutiny. Look for a clear explanation of when the method is appropriate and what its limitations are. Confidence in the writing is not the same as suitability for your home.</p>
 <h2>Let the reading lead back to your life</h2>
 <p>Choose one small action if the material calls for action: check a label, ask a question, or try a safe adjustment. Then close the other tabs. You can appreciate an idea without making it another project. The best result of useful reading may be a solved annoyance and an evening in which you stop researching the couch and simply sit on it.</p>
+
+<p>If clearing one awkward piece of furniture reveals a larger problem, <a href="/2008/10/20-hidden-ways-your-stuff-screws-you-over/">the hidden costs of owning things</a> can help you examine the space and work involved. Before replacing it, consider <a href="/2008/05/the-wrath-of-meta-stuff/">the extra stuff that comes with a purchase</a>, from protective covers to storage and maintenance supplies.</p>
+
+<p>Finally, use <a href="/2009/03/three-splurges-that-are-totally-worth-it/">a more selective approach to splurging</a> when deciding whether repairing or replacing a worn item would make everyday life easier.</p>

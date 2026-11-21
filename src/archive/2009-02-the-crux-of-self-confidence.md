@@ -33,3 +33,5 @@ updated: "2026-11-21"
 <h2>Measure the attempt fairly</h2>
 <p>Afterward, ask whether you acted in line with the preparation and values you chose. You may have done that and still received a refusal, lost an opportunity, or discovered more work ahead. Disappointment is real, but it does not automatically prove the attempt was unworthy.</p>
 <p>Keep a brief record of useful actions if you tend to forget them when anxious. A few factual notes can counter the impression that you never follow through. If anxiety repeatedly restricts your life, qualified support may help. Confidence does not require becoming fearless or wholly self-sufficient. It can be the quieter knowledge that uncertainty does not remove your ability to act thoughtfully.</p>
+
+<p>Confidence can grow from collecting practical experience rather than making larger claims about yourself. Choose one of the <a href="/2008/09/three-things-youre-dying-to-learn/">things you would like to learn</a> and identify a beginner-sized activity you can actually complete.</p>

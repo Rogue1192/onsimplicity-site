@@ -33,3 +33,5 @@ updated: "2026-11-21"
 <h2>Let your pattern change</h2>
 <p>A choice that once felt authentic may stop fitting. Careers, bodies, households, and interests change. You do not have to keep an old preference merely because people associate it with you. Explain a practical change where necessary and allow the rest to be ordinary.</p>
 <p>The zebra image offers a playful reminder to stop treating difference as an automatic defect. It is not a demand to stand out at all times. A satisfying life may contain conspicuous interests and deeply ordinary pleasures. Keep the parts that are useful and meaningful to you, leave room for others to do the same, and resist turning either conformity or rebellion into a permanent job.</p>
+
+<p>Trying a different preference does not have to become a dramatic identity announcement. <a href="/2008/11/playful-simplicity/">Playful simplicity</a> makes room to experiment with a routine, activity or style before deciding whether it belongs in your life.</p>

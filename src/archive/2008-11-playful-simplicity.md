@@ -32,3 +32,7 @@ updated: "2026-11-21"
 <h2>Keep improvement out of at least one activity</h2>
 <p>A hobby can become another job when every session must develop a skill, attract an audience, or earn money. Those goals can be legitimate, but leave something untouched by them if you can. Play a song badly for your own amusement. Draw something without photographing it. Repeat a game because it remains fun.</p>
 <p>Afterward, notice whether you feel more present, connected, or simply amused. The answer may be modest. You do not need to prove that play transformed your productivity. A few enjoyable minutes already belong to a life worth simplifying for.</p>
+
+<p>If playing feels awkward because you expect a finished result, try <a href="/2009/08/life-lessons-from-finger-painting-its-the-process-not-the-product/">the process-first approach to finger painting</a>: begin with ordinary materials and give yourself permission to stop without producing anything worth keeping.</p>
+
+<p>For low-pressure possibilities, browse <a href="/2009/08/30-summer-pleasures/">these everyday summer pleasures</a> and adapt one to the weather, time and energy you have today.</p>

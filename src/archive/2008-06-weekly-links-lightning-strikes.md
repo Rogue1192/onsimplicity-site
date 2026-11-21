@@ -33,3 +33,5 @@ updated: "2026-11-21"
 <p>At the end of the week, make a short decision: keep the change, alter it, or let it go. You do not owe every attractive idea a permanent place in your life. If it needs constant effort and solves a problem you barely have, releasing it is sensible.</p>
 <p>The broader <a href="/category/simple-living/">simple living reading collection</a> can help you choose a different question next week, once you have given this one a fair trial.</p>
 <p>For the idea that does deserve another attempt, <a href="/2008/06/persistence-a-reasonable-stand-in-for-perfectionism/">persistence can be a better companion than perfectionism</a>. Repeat a modest action before expanding it. Improvement often looks less like a second lightning strike and more like remembering where the bowls belong, opening yesterday's draft, or making the call you already decided mattered.</p>
+
+<p>An exciting idea needs somewhere to land. <a href="/2008/10/finding-balance-between-creativity-and-family/">Finding balance between creativity and family</a> helps you protect a little creative time without treating the people around you as interruptions.</p>

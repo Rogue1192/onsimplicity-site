@@ -32,3 +32,5 @@ updated: "2026-11-21"
 <h2>Know when a list is not the answer</h2>
 <p>Persistent distress, intrusive thoughts, or difficulty functioning may need professional support. Organization techniques can assist daily life, but they are not treatment and should not be used to blame someone for symptoms. If you feel unsafe or face an immediate crisis, contact appropriate emergency or crisis support where you are.</p>
 <p>For everyday overload, begin with a single recurring thought and give it a clear place to land. Less mental clutter may feel like a little more space around the thought, not the total absence of thought. That is a useful improvement without turning calm into another impossible standard.</p>
+
+<p>A crowded mind often reflects work arriving through too many channels. <a href="/2009/07/20-ways-to-simplify-your-work-life/">Simplifying your work life</a> can help you reduce incoming demands instead of relying entirely on better personal discipline.</p>

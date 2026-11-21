@@ -37,3 +37,5 @@ updated: "2026-11-21"
 <p>After acting, you may discover a specific gap: how to store the supplies, explain a boundary, or repeat the task on a busy day. That is a useful moment to return to reading. You now have a question that can guide your attention.</p>
 <p>Save only the advice that answers it. A short note in your own words often serves you better than a large folder of articles you feel obliged to revisit. Include the next action alongside the idea so the reading stays connected to life outside the browser.</p>
 <p>The most practical no-excuses approach is not harsher self-talk. It is honest scope, a clear beginning, and permission to learn from what actually happens.</p>
+
+<p>When an excuse is really a missing skill, choose one of the <a href="/2008/09/three-things-youre-dying-to-learn/">three things you want to learn</a> and make the first practice session small enough to start this week.</p>

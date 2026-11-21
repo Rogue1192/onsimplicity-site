@@ -33,3 +33,7 @@ updated: "2026-11-21"
 <h2>Keep a small record of what worked</h2>
 <p>At the end of the pause, note one thing you would repeat. Perhaps eating outside improved an ordinary lunch, or turning off notifications made reading possible again. You do not need a journal system or a score for the day. A sentence is enough to help you remember when the next busy week makes your preferences harder to hear.</p>
 <p>A modest Sunday is not a failed version of an impressive one. If you met essential needs, found a little ease, or noticed something worth carrying forward, the pause has served a purpose. Leave some of it unfinished. Leisure does not need a final polished result.</p>
+
+<p>If Sunday repeatedly disappears into housework, <a href="/2008/06/simplify-your-cleaning-routine/">simplifying your cleaning routine</a> can help you decide what genuinely needs doing and what can wait without making Monday harder.</p>
+
+<p>A free afternoon need not become another project. Let <a href="/2009/03/free-to-have-fun-reclaiming-your-hobbies/">a hobby be enjoyable again</a> without expecting it to improve your home or earn its place.</p>

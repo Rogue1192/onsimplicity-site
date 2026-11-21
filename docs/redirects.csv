@@ -1,0 +1,12 @@
+Old URL,Final URL,HTTP status chain
+https://onsimplicity.net/,https://www.onsimplicity.net/,301 -> 200
+https://www.onsimplicity.net/about-sara/,https://www.onsimplicity.net/about/,301 -> 200
+https://www.onsimplicity.net/about-2/,https://www.onsimplicity.net/about/,301 -> 200
+https://www.onsimplicity.net/faqs/,https://www.onsimplicity.net/about/,301 -> 200
+https://www.onsimplicity.net/feed/,https://www.onsimplicity.net/rss.xml,301 -> 200
+https://www.onsimplicity.net/category/blogging/,https://www.onsimplicity.net/archives/,301 -> 200
+https://www.onsimplicity.net/category/blogging/page/2/,https://www.onsimplicity.net/archives/,301 -> 200
+https://www.onsimplicity.net/category/simple-living/page/2/,https://www.onsimplicity.net/category/simple-living/,301 -> 200
+https://www.onsimplicity.net/page/2/,https://www.onsimplicity.net/,301 -> 200
+https://www.onsimplicity.net/2008/06/,https://www.onsimplicity.net/archives/,301 -> 200
+https://www.onsimplicity.net/2008/06/page/2/,https://www.onsimplicity.net/archives/,301 -> 200

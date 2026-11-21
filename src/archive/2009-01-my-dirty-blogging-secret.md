@@ -32,3 +32,5 @@ updated: "2026-11-21"
 <h2>Give the writer a way to stop</h2>
 <p>Set a stopping point for a session: finish a section, check the links, or publish the piece after its planned revision. Endless tweaking can consume the time needed to notice the next useful subject. Close the dashboard when the task is complete instead of checking traffic repeatedly for reassurance.</p>
 <p>The historical headline suggests a confession, but the editorial lesson does not require one. You can care about writing and still prefer a sustainable pace. The useful secret, if there is one, is that a public page does not need to reveal the whole person behind it. It needs to offer something honest, readable, and worth the reader's time.</p>
+
+<p>Privacy gets easier when your boundaries have simple language. <a href="/2009/02/15-graceful-ways-to-say-no/">Practicing a graceful no</a> can help you decline an interview, a request for personal details or a collaboration that asks for more than you want to share.</p>

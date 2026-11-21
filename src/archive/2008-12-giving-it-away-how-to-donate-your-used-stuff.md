@@ -32,3 +32,7 @@ updated: "2026-11-21"
 <h2>Leave yourself a complete finish</h2>
 <p>Separate items for donation, repair, recycling, and disposal. Put a date and next action on the categories that require a trip. An indefinite pile by the door is not yet a completed decision. If transport is difficult, investigate a legitimate collection service and ask about charges before agreeing.</p>
 <p>Finally, notice what you are passing on repeatedly. Several unused versions of the same thing may point to a buying habit worth changing. The lesson is not to feel guilty about every mistake. It is to make future purchases more deliberate, while getting useful objects to people who actually want them.</p>
+
+<p>Donation decisions become harder when every object represents a possible future need. <a href="/2009/03/but-i-might-need-it-someday-syndrome/">Working through the someday syndrome</a> gives you a way to assess those possibilities before filling the donation bag.</p>
+
+<p>When the donation pile comes mostly from your wardrobe, <a href="/2008/09/purge-your-closet/">these approaches to clearing a closet</a> can help you distinguish useful clothing from things kept out of guilt.</p>

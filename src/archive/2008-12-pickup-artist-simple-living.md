@@ -32,3 +32,5 @@ updated: "2026-11-21"
 <h2>Choose better sources as you continue</h2>
 <p>For persistent social anxiety or relationship difficulties, look to qualified support and respectful communication resources rather than manipulative scripts. A single unexpected insight is not a reason to keep consuming advice whose broader assumptions harm people.</p>
 <p>Simplifying your social life can mean fewer rehearsed performances and more honest, proportionate contact. Keep the part that encourages a humane first step. Leave behind any promise that the right words can make another person's preferences disappear. The goal is connection between people who can both choose it.</p>
+
+<p>Respectful interaction also includes giving yourself time away from conversation. <a href="/2008/06/its-okay-to-just-shut-up-understanding-introversion/">Understanding introversion</a> can help you distinguish healthy quiet from the pressure to remain constantly available to others.</p>

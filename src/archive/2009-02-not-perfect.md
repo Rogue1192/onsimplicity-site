@@ -45,3 +45,7 @@ updated: "2026-11-21"
 <h2>Allow other people the same room</h2>
 <p>If you want freedom from impossible standards, notice whether you demand them from others. Ask for what you need clearly, distinguish preference from necessity, and leave room for a different competent method. Shared work becomes lighter when one person's taste is not treated as the only acceptable outcome.</p>
 <p>There is no need to celebrate every flaw. Some habits deserve effort and some situations deserve change. The point is that improvement remains possible without first becoming perfect. An unfinished person can still be reliable, affectionate, curious, and useful. Those qualities grow through ordinary attempts, corrections, and rest, not through finally reaching a condition in which nothing ever goes wrong.</p>
+
+<p>Accepting imperfection still leaves room for effort. <a href="/2008/06/persistence-a-reasonable-stand-in-for-perfectionism/">Persistence as an alternative to perfectionism</a> explains why returning to a small practice can matter more than producing an impressive result on every attempt.</p>
+
+<p>If a mistake makes you doubt your usefulness, <a href="/2009/02/the-crux-of-self-confidence/">a grounded approach to confidence</a> can help you notice the value of what you contribute without demanding perfection.</p>

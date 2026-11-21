@@ -54,3 +54,5 @@ updated: "2026-11-21"
 <h2>Notice a pleasure without collecting it</h2>
 <p>Not every attractive leaf, decoration, or seasonal offer needs to come home. Take a moment to enjoy a display or a color without turning it into a purchase. If you do bring something in, know where it will go and how long you want it there. This keeps the season from becoming another storage problem.</p>
 <p>Choose one pleasure for this week and leave the others available. A list is a set of possibilities, not a test of whether you celebrated autumn properly. Paying attention to one ordinary afternoon can be enough, especially in a season when work, school, and family calendars are already full.</p>
+
+<p>Let seasonal activities remain enjoyable rather than turning them into a perfect autumn checklist. <a href="/2009/03/free-to-have-fun-reclaiming-your-hobbies/">Reclaiming your hobbies</a> offers a useful reminder that a hobby does not have to produce anything.</p>

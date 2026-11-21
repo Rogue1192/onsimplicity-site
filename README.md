@@ -18,3 +18,11 @@ Vercel Astro preset, `npm run build`, output `dist`, production branch main. Set
 
 ## Verification
 Run local publisher fixtures before release (valid partner + post, malformed JSON, nullable optional fields, pagination). Remove fixtures and rebuild. Audit `dist` for manifest paths, one H1, canonicals, schemas, link destinations, RSS and sitemap. After deployment verify HTTP chains, real 404 status and commit-triggered publishing. Do not publish sample businesses or invented identities.
+
+## Launch status
+
+Production: https://www.onsimplicity.net/ . GitHub main deploys automatically to Vercel. All 84 Markdown archive articles are live at the specified addresses. The production HTTP suite passed 208/208 checks. See [the actual redirect results](docs/redirects.csv) for old URL, final URL and status chain. Real push publishing, malformed JSON, null optionals, business profiles, RSS and sitemap were exercised; temporary test content was removed.
+
+Artwork inventory: the homepage contains one original inline SVG illustration, authored for this site in src/pages/index.astro. No stock photography or repeated photos are used. All other pages are typographic until actual partner images are supplied.
+
+Still needed: the contact mailbox and its delivery setup; Search Console property access/ownership verification and sitemap submission; the supplied disavow file for upload. The site does not pretend these are configured.
