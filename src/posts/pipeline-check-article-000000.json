@@ -9,7 +9,7 @@
     "check"
   ],
   "partner": "sosa-plumbing-services-hutto-tx",
-  "body_html": "<p>Pipeline check body.</p>\n<h3>Project Resources</h3>\n<ul>\n<li><a href=\"https://example.com/a\">A</a></li>\n</ul>",
+  "body_html": "<p>Pipeline check body.</p>\n<h3>Project Resources</h3>\n<ul>\n<li><a href=\"https://example.com/client-post/\">Read the full project write-up</a></li>\n<li><a href=\"https://example.com/a\">A</a></li>\n</ul>",
   "schema": {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -28,5 +28,6 @@
       "url": "https://www.onsimplicity.net/"
     }
   },
-  "featured_image": null
+  "featured_image": null,
+  "client_post_url": "https://example.com/client-post/"
 }
